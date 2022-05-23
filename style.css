@@ -1,0 +1,59 @@
+/* color palette
+--celadon: #baf2bbff; 
+--magic-mint: #baf2d8ff; 
+--beau-blue: #bad7f2ff; 
+--orchid-pink: #f2bac9ff; 
+--dutch-white: #f2e2baff;
+*/
+
+:root {
+--t-black: #302D41;
+--t-green: #baf2bbff; 
+--t-mint: #baf2d8ff; 
+--t-blue: #bad7f2ff; 
+--t-pink: #f2bac9ff; 
+--t-yellow: #f2e2baff;
+--t-shade: #1714219c;
+}
+
+html, body {
+  background-color: var(--t-black);
+  padding: 5%;
+}
+
+h1 {
+  text-shadow: 8px 8px var(--t-shade);
+  font-size: 64px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: var(--t-pink); 
+}
+
+h2 {
+  text-shadow: 3px 3px var(--t-shade);
+  font-size: 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2.ingredients{
+  color: var(--t-blue); 
+}
+
+h2.directions{
+  color: var(--t-yellow); 
+}
+
+li {
+  text-shadow: 2px 2px var(--t-shade);
+  color: #F5E0DC;
+}
+
+a {
+  text-shadow: 2px 2px var(--t-shade);
+  color: var(--t-mint);
+  font-weight: bold;
+}
+
+img {
+  box-shadow: 12px 12px 0 -4px var(--t-mint);
+  border: 4px solid var(--t-mint);
+}
